@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package uuid="tonya-579850" version="0.0.0">
+<package version="0.0.0" uuid="tonya-579850">
  <names>
-  <name lang="en_US">tonya</name>
+  <name lang="en_US">tonya-pepper</name>
  </names>
  <supportedLanguages>
   <language>en_US</language>
