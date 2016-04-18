@@ -3,6 +3,7 @@
     <Manifest src="manifest.xml" />
     <BehaviorDescriptions>
         <BehaviorDescription name="behavior" src="questionnaire" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="presentation" xar="behavior.xar" />
     </BehaviorDescriptions>
     <Dialogs />
     <Resources>
@@ -18,6 +19,12 @@
         <File name="qa4_2" src="html/tpl/qa4_2.tpl" />
         <File name="questionnaire" src="html/questionnaire.html" />
         <File name="qa4_3" src="html/tpl/qa4_3.tpl" />
+        <File name="test" src="presentation/test.mp3" />
+        <File name="top" src="html/images/top.jpg" />
+        <File name="shop1" src="html/images/shop1.jpg" />
+        <File name="shop2" src="html/images/shop2.jpg" />
+        <File name="shop3" src="html/images/shop3.jpg" />
+        <File name="presentation01" src="html/presentation01.html" />
     </Resources>
     <Topics />
     <IgnoredPaths>
