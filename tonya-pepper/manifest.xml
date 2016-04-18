@@ -35,6 +35,10 @@
    <autonomous/>
    <permissions/>
   </behaviorContent>
+  <behaviorContent path="presentation">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
  </contents>
  <requirements>
   <naoqiRequirement maxVersion="2.4" minVersion="2.4"/>
