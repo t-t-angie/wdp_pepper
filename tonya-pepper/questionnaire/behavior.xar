@@ -17,7 +17,7 @@
             <BehaviorLayer name="behavior_layer1">
                 <BehaviorKeyframe name="keyframe1" index="1">
                     <Diagram scale="70.7107">
-                        <Box name="ShowLocalHtml" id="23" localization="8" tooltip="プロジェクト内のHTMLを読み込む&#x0A;" x="1368" y="114">
+                        <Box name="ShowLocalHtml" id="23" localization="8" tooltip="プロジェクト内のHTMLを読み込む&#x0A;" x="1489" y="98">
                             <bitmap>media/images/box/interaction/rec_movie.png</bitmap>
                             <script language="4">
                                 <content>
@@ -124,7 +124,7 @@
                             <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="6" />
                             <Parameter name="argUrl" inherits_from_parent="0" content_type="3" value="questionnaire.html" default_value="" custom_choice="0" tooltip='path of the html inside the &quot;html&quot; folder (e.g. &quot;myimage.html&quot;' id="7" />
                         </Box>
-                        <Box name="Question1" id="8" localization="8" tooltip="Shows the webview (html content) on the tablet.&#x0A;&#x0A;V1.0.0&#x0A;" x="1230" y="114">
+                        <Box name="Question1" id="8" localization="8" tooltip="Shows the webview (html content) on the tablet.&#x0A;&#x0A;V1.0.0&#x0A;" x="1288" y="92">
                             <bitmap>media/images/box/internet/internet.png</bitmap>
                             <script language="4">
                                 <content>
@@ -164,7 +164,7 @@ class MyClass(GeneratedClass):
                             <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" />
                             <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="3" />
                         </Box>
-                        <Box name="Say" id="1" localization="8" tooltip="Say some text. Note that you must open the box to enter the text." x="353" y="466">
+                        <Box name="Say" id="1" localization="8" tooltip="Say some text. Note that you must open the box to enter the text." x="429" y="396">
                             <bitmap>media/images/box/interaction/say.png</bitmap>
                             <script language="4">
                                 <content>
@@ -373,7 +373,7 @@ class MyClass(GeneratedClass):
                             </Timeline>
                             <Resource name="Speech" type="Lock" timeout="0" />
                         </Box>
-                        <Box name="Text Edit Next TPL" id="5" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="418" y="139">
+                        <Box name="Text Edit Next TPL" id="5" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="596" y="108">
                             <bitmap>media/images/box/interaction/vocabulary.png</bitmap>
                             <script language="4">
                                 <content>
@@ -395,7 +395,7 @@ class MyClass(GeneratedClass):
                             <Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="To send the text on the output." id="2" />
                             <Output name="onStopped" type="3" type_size="1" nature="2" inner="0" tooltip="The text you entered." id="3" />
                         </Box>
-                        <Box name="Text Edit Init TPL" id="6" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="429" y="44">
+                        <Box name="Text Edit Init TPL" id="6" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="571" y="16">
                             <bitmap>media/images/box/interaction/vocabulary.png</bitmap>
                             <script language="4">
                                 <content>
@@ -417,7 +417,7 @@ class MyClass(GeneratedClass):
                             <Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="To send the text on the output." id="2" />
                             <Output name="onStopped" type="3" type_size="1" nature="2" inner="0" tooltip="The text you entered." id="3" />
                         </Box>
-                        <Box name="Raise Event (1)" id="7" localization="8" tooltip="Stores in NAOqi&apos;s shared memory the given value at the given key, and spreads the event to all its subscribers." x="1095" y="112">
+                        <Box name="Raise Event (1)" id="7" localization="8" tooltip="Stores in NAOqi&apos;s shared memory the given value at the given key, and spreads the event to all its subscribers." x="1015" y="28">
                             <bitmap>media/images/box/sensors/STM.png</bitmap>
                             <script language="4">
                                 <content>
@@ -448,7 +448,7 @@ class MyClass(GeneratedClass):
                             <Output name="onError" type="3" type_size="1" nature="1" inner="0" tooltip="Output when error is raised by the behavior. Contains the error message." id="5" />
                             <Parameter name="key" inherits_from_parent="0" content_type="3" value="/tonya/Signal/questionnaire/PresentView" default_value="MyApplication/MyData" custom_choice="0" tooltip="" id="6" />
                         </Box>
-                        <Box name="Switch Case" id="4" localization="8" tooltip="Test input value and stimulate the output matching to this value. If there is no&#x0A;matching output, the default output (onDefault) is stimulated.&#x0A;&#x0A;You can edit a case by left double-clicking on the line. You can add a&#x0A;case by right clicking on a line and selecting &apos;Insert a row&apos;. You can delete&#x0A;a case by right clicking on a line and selecting &apos;Remove a row&apos;." plugin="dispatcher_plugin" x="92" y="466">
+                        <Box name="Switch Case" id="4" localization="8" tooltip="Test input value and stimulate the output matching to this value. If there is no&#x0A;matching output, the default output (onDefault) is stimulated.&#x0A;&#x0A;You can edit a case by left double-clicking on the line. You can add a&#x0A;case by right clicking on a line and selecting &apos;Insert a row&apos;. You can delete&#x0A;a case by right clicking on a line and selecting &apos;Remove a row&apos;." plugin="dispatcher_plugin" x="119" y="334">
                             <bitmap>media/images/box/interaction/choice.png</bitmap>
                             <script language="4">
                                 <content>
@@ -501,7 +501,7 @@ class MyClass(GeneratedClass):
                             <Output name="output_3" type="0" type_size="1" nature="2" inner="0" tooltip="このIOはボックスにより自動で追加されました。詳細はボックスのツールチップをご覧ください。" id="6" />
                             <Output name="output_4" type="0" type_size="1" nature="2" inner="0" tooltip="このIOはボックスにより自動で追加されました。詳細はボックスのツールチップをご覧ください。" id="7" />
                         </Box>
-                        <Box name="Say (1)" id="2" localization="8" tooltip="Say some text. Note that you must open the box to enter the text." x="350" y="620">
+                        <Box name="Say (1)" id="2" localization="8" tooltip="Say some text. Note that you must open the box to enter the text." x="418" y="551">
                             <bitmap>media/images/box/interaction/say.png</bitmap>
                             <script language="4">
                                 <content>
@@ -710,33 +710,7 @@ class MyClass(GeneratedClass):
                             </Timeline>
                             <Resource name="Speech" type="Lock" timeout="0" />
                         </Box>
-                        <Box name="Remove Data / Event" id="3" localization="8" tooltip="Remove the given key from NAOqi&apos;s shared memory." x="557" y="554">
-                            <bitmap>media/images/box/sensors/STM.png</bitmap>
-                            <script language="4">
-                                <content>
-                                    <![CDATA[class MyClass(GeneratedClass):
-    def __init__(self):
-        GeneratedClass.__init__(self)
-        pass
-
-    def onLoad(self):
-        self.memory = ALProxy("ALMemory")
-
-    def onUnload(self):
-        self.memory = None
-
-    def onInput_onStart(self):
-        self.memory.removeData(self.getParameter("key"))
-        self.onStopped()]]>
-</content>
-                            </script>
-                            <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" />
-                            <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" />
-                            <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="3" />
-                            <Output name="onError" type="3" type_size="1" nature="1" inner="0" tooltip="Output when error is raised by the behavior. Contains the error message." id="4" />
-                            <Parameter name="key" inherits_from_parent="0" content_type="3" value="/tonya/Signal/questionnaire/answer" default_value="MyApplication/MyData" custom_choice="0" tooltip="" id="5" />
-                        </Box>
-                        <Box name="Wait For Signals" id="9" localization="8" tooltip="Wait for both inputs to be stimulated before stimulating its output." x="950" y="296">
+                        <Box name="Wait For Signals" id="9" localization="8" tooltip="Wait for both inputs to be stimulated before stimulating its output." x="1115" y="240">
                             <bitmap>media/images/box/wait.png</bitmap>
                             <script language="4">
                                 <content>
@@ -772,7 +746,7 @@ class MyClass(GeneratedClass):
                             <Input name="signal2" type="1" type_size="1" nature="1" inner="0" tooltip="Second signal to wait." id="3" />
                             <Output name="signalsReceived" type="1" type_size="1" nature="2" inner="0" tooltip="Signal sent when both inputs have been stimulated." id="4" />
                         </Box>
-                        <Box name="Switch Case Show TPL" id="10" localization="8" tooltip="Test input value and stimulate the output matching to this value. If there is no&#x0A;matching output, the default output (onDefault) is stimulated.&#x0A;&#x0A;You can edit a case by left double-clicking on the line. You can add a&#x0A;case by right clicking on a line and selecting &apos;Insert a row&apos;. You can delete&#x0A;a case by right clicking on a line and selecting &apos;Remove a row&apos;." plugin="dispatcher_plugin" x="149" y="55">
+                        <Box name="Switch Case Show TPL" id="10" localization="8" tooltip="Test input value and stimulate the output matching to this value. If there is no&#x0A;matching output, the default output (onDefault) is stimulated.&#x0A;&#x0A;You can edit a case by left double-clicking on the line. You can add a&#x0A;case by right clicking on a line and selecting &apos;Insert a row&apos;. You can delete&#x0A;a case by right clicking on a line and selecting &apos;Remove a row&apos;." plugin="dispatcher_plugin" x="141" y="155">
                             <bitmap>media/images/box/interaction/choice.png</bitmap>
                             <script language="4">
                                 <content>
@@ -821,7 +795,7 @@ class MyClass(GeneratedClass):
                             <Output name="output_2" type="0" type_size="1" nature="2" inner="0" tooltip="This IO has been automatically added by box. Read box tooltip for more information." id="5" />
                             <Output name="output_3" type="0" type_size="1" nature="2" inner="0" tooltip="このIOはボックスにより自動で追加されました。詳細はボックスのツールチップをご覧ください。" id="6" />
                         </Box>
-                        <Box name="Text Edit Next TPL (1)" id="11" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="434" y="240">
+                        <Box name="Text Edit Next TPL (1)" id="11" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="592" y="201">
                             <bitmap>media/images/box/interaction/vocabulary.png</bitmap>
                             <script language="4">
                                 <content>
@@ -843,33 +817,7 @@ class MyClass(GeneratedClass):
                             <Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="To send the text on the output." id="2" />
                             <Output name="onStopped" type="3" type_size="1" nature="2" inner="0" tooltip="The text you entered." id="3" />
                         </Box>
-                        <Box name="Remove Data / Event (1)" id="13" localization="8" tooltip="Remove the given key from NAOqi&apos;s shared memory." x="767" y="155">
-                            <bitmap>media/images/box/sensors/STM.png</bitmap>
-                            <script language="4">
-                                <content>
-                                    <![CDATA[class MyClass(GeneratedClass):
-    def __init__(self):
-        GeneratedClass.__init__(self)
-        pass
-
-    def onLoad(self):
-        self.memory = ALProxy("ALMemory")
-
-    def onUnload(self):
-        self.memory = None
-
-    def onInput_onStart(self):
-        self.memory.removeData(self.getParameter("key"))
-        self.onStopped()]]>
-</content>
-                            </script>
-                            <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" />
-                            <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" />
-                            <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="3" />
-                            <Output name="onError" type="3" type_size="1" nature="1" inner="0" tooltip="Output when error is raised by the behavior. Contains the error message." id="4" />
-                            <Parameter name="key" inherits_from_parent="0" content_type="3" value="/tonya/Signal/questionnaire/question" default_value="MyApplication/MyData" custom_choice="0" tooltip="" id="5" />
-                        </Box>
-                        <Box name="Hide Web View" id="14" localization="8" tooltip="Hides the webview (html content) on the tablet, behind a generic cover&#x0A;&#x0A;V1.0.0&#x0A;" x="1095" y="542">
+                        <Box name="Hide Web View" id="14" localization="8" tooltip="Hides the webview (html content) on the tablet, behind a generic cover&#x0A;&#x0A;V1.0.0&#x0A;" x="1271" y="470">
                             <bitmap>media/images/box/internet/internet.png</bitmap>
                             <script language="4">
                                 <content>
@@ -909,7 +857,7 @@ class MyClass(GeneratedClass):
                             <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" />
                             <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="3" />
                         </Box>
-                        <Box name="Animated Say" id="12" localization="8" tooltip="Say some text with animations. Note that you must open the box to enter the text." x="1319" y="515">
+                        <Box name="Animated Say" id="12" localization="8" tooltip="Say some text with animations. Note that you must open the box to enter the text." x="1477" y="473">
                             <bitmap>media/images/box/interaction/say.png</bitmap>
                             <script language="4">
                                 <content>
@@ -1127,7 +1075,7 @@ class MyClass(GeneratedClass):
                             </Timeline>
                             <Resource name="Speech" type="Lock" timeout="0" />
                         </Box>
-                        <Box name="Wait For Signals (1)" id="15" localization="8" tooltip="Wait for both inputs to be stimulated before stimulating its output." x="925" y="468">
+                        <Box name="Wait For Signals (1)" id="15" localization="8" tooltip="Wait for both inputs to be stimulated before stimulating its output." x="1008" y="450">
                             <bitmap>media/images/box/wait.png</bitmap>
                             <script language="4">
                                 <content>
@@ -1163,29 +1111,86 @@ class MyClass(GeneratedClass):
                             <Input name="signal2" type="1" type_size="1" nature="1" inner="0" tooltip="Second signal to wait." id="3" />
                             <Output name="signalsReceived" type="1" type_size="1" nature="2" inner="0" tooltip="Signal sent when both inputs have been stimulated." id="4" />
                         </Box>
+                        <Box name="Raise Event" id="17" localization="8" tooltip="Stores in NAOqi&apos;s shared memory the given value at the given key, and spreads the event to all its subscribers." x="889" y="152">
+                            <bitmap>media/images/box/sensors/STM.png</bitmap>
+                            <script language="4">
+                                <content>
+                                    <![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self)
+        pass
+
+    def onLoad(self):
+        self.memory = ALProxy("ALMemory")
+
+    def onUnload(self):
+        self.memory = None
+
+    def onInput_onStart(self, p):
+        self.memory.raiseEvent(self.getParameter("key"), p)
+        self.onStopped(p)
+
+    def onInput_onStop(self):
+        self.onUnload() #~ it is recommended to call onUnload of this box in a onStop method, as the code written in onUnload is used to stop the box as well
+        pass]]>
+</content>
+                            </script>
+                            <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" />
+                            <Input name="onStart" type="0" type_size="1" nature="2" inner="0" tooltip="Receives the value to be inserted as an event in ALMemory." id="2" />
+                            <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
+                            <Output name="onStopped" type="0" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished. It contains the inserted value in ALMemory." id="4" />
+                            <Output name="onError" type="3" type_size="1" nature="1" inner="0" tooltip="Output when error is raised by the behavior. Contains the error message." id="5" />
+                            <Parameter name="key" inherits_from_parent="0" content_type="3" value="/tonya/Signal/questionnaire/PresentView" default_value="MyApplication/MyData" custom_choice="0" tooltip="" id="6" />
+                        </Box>
+                        <Box name="Comment" id="3" localization="8" tooltip="To comment your behavior. Enter the text here and move the box where you like&#x0A;to add the comment.&#x0A;&#x0A;Note: This box is not functional and has no effect on the behavior." plugin="textedit_plugin" x="1334" y="259">
+                            <bitmap>media/images/box/box-script.png</bitmap>
+                            <script language="4">
+                                <content>
+                                    <![CDATA[# /!\ Generated content. Do not edit!
+class MyClass(GeneratedClass):
+	def __init__(self):
+		GeneratedClass.__init__(self)
+
+	def onInput_onStart(self):
+		self.onStopped("HTMLを開きなおしているので、\n白い画面が表示される。\n再読み込み見たいのができないか？\n")]]>
+</content>
+                            </script>
+                            <pluginContent>
+                                <text>
+                                    <![CDATA[HTMLを開きなおしているので、
+白い画面が表示される。
+再読み込み見たいのができないか？
+]]>
+</text>
+                            </pluginContent>
+                            <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" />
+                        </Box>
                         <Link inputowner="23" indexofinput="2" outputowner="8" indexofoutput="3" />
                         <Link inputowner="7" indexofinput="2" outputowner="6" indexofoutput="3" />
-                        <Link inputowner="8" indexofinput="2" outputowner="7" indexofoutput="4" />
                         <Link inputowner="2" indexofinput="2" outputowner="4" indexofoutput="4" />
                         <Link inputowner="1" indexofinput="2" outputowner="4" indexofoutput="3" />
-                        <Link inputowner="3" indexofinput="2" outputowner="1" indexofoutput="4" />
-                        <Link inputowner="3" indexofinput="2" outputowner="2" indexofoutput="4" />
                         <Link inputowner="4" indexofinput="2" outputowner="0" indexofoutput="5" />
                         <Link inputowner="10" indexofinput="2" outputowner="0" indexofoutput="4" />
                         <Link inputowner="5" indexofinput="2" outputowner="10" indexofoutput="4" />
-                        <Link inputowner="10" indexofinput="2" outputowner="0" indexofoutput="2" />
                         <Link inputowner="6" indexofinput="2" outputowner="10" indexofoutput="3" />
                         <Link inputowner="11" indexofinput="2" outputowner="10" indexofoutput="5" />
-                        <Link inputowner="13" indexofinput="2" outputowner="5" indexofoutput="3" />
-                        <Link inputowner="13" indexofinput="2" outputowner="11" indexofoutput="3" />
-                        <Link inputowner="9" indexofinput="2" outputowner="13" indexofoutput="3" />
-                        <Link inputowner="9" indexofinput="3" outputowner="3" indexofoutput="3" />
-                        <Link inputowner="7" indexofinput="2" outputowner="9" indexofoutput="4" />
                         <Link inputowner="12" indexofinput="2" outputowner="14" indexofoutput="3" />
                         <Link inputowner="0" indexofinput="6" outputowner="12" indexofoutput="4" />
+                        <Link inputowner="6" indexofinput="2" outputowner="0" indexofoutput="2" />
+                        <Link inputowner="17" indexofinput="2" outputowner="5" indexofoutput="3" />
+                        <Link inputowner="17" indexofinput="2" outputowner="11" indexofoutput="3" />
+                        <Link inputowner="8" indexofinput="2" outputowner="7" indexofoutput="4" />
+                        <Link inputowner="1" indexofinput="2" outputowner="4" indexofoutput="5" />
+                        <Link inputowner="1" indexofinput="2" outputowner="4" indexofoutput="6" />
+                        <Link inputowner="1" indexofinput="2" outputowner="4" indexofoutput="7" />
+                        <Link inputowner="9" indexofinput="2" outputowner="17" indexofoutput="4" />
+                        <Link inputowner="9" indexofinput="3" outputowner="1" indexofoutput="4" />
+                        <Link inputowner="9" indexofinput="3" outputowner="2" indexofoutput="4" />
                         <Link inputowner="15" indexofinput="2" outputowner="10" indexofoutput="6" />
-                        <Link inputowner="15" indexofinput="3" outputowner="3" indexofoutput="3" />
+                        <Link inputowner="15" indexofinput="3" outputowner="1" indexofoutput="4" />
+                        <Link inputowner="15" indexofinput="3" outputowner="2" indexofoutput="4" />
                         <Link inputowner="14" indexofinput="2" outputowner="15" indexofoutput="4" />
+                        <Link inputowner="8" indexofinput="2" outputowner="9" indexofoutput="4" />
                     </Diagram>
                 </BehaviorKeyframe>
             </BehaviorLayer>

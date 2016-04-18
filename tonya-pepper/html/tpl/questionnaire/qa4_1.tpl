@@ -1,5 +1,5 @@
 <script>
-Qitalk.proxy.ALTextToSpeech.say('あなたが、好きなコーヒー豆の種類を教えてください');
+Qitalk.proxy.ALTextToSpeech.say('あなたが好きなコーヒー豆の種類を、教えてください');
 </script>
 
 <script>
