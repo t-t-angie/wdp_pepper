@@ -232,7 +232,7 @@ class MyClass(GeneratedClass):
 			"Finnish" : " ^start(animations/Stand/Gestures/Hey_1) Hei ^wait(animations/Stand/Gestures/Hey_1) ",
 			"French" : " ^start(animations/Stand/Gestures/Hey_1) Bonjour ^wait(animations/Stand/Gestures/Hey_1) ",
 			"Italian" : " ^start(animations/Stand/Gestures/Hey_1) Ciao ^wait(animations/Stand/Gestures/Hey_1) ",
-			"Japanese" : " ^start(animations/Stand/Gestures/Hey_1) コーヒートンヤの紹介をします根ぇ、コーヒートンヤは、 ^wait(animations/Stand/Gestures/Hey_1) ",
+			"Japanese" : " ^start(animations/Stand/Gestures/Explain_1) コーヒートンヤの紹介をします根ぇ、コーヒートンヤは、 ^wait(animations/Stand/Gestures/Hey_1) ",
 			"Korean" : " ^start(animations/Stand/Gestures/Hey_1) 안녕하세요 ^wait(animations/Stand/Gestures/Hey_1) ",
 			"Dutch" : " ^start(animations/Stand/Gestures/Hey_1) Hallo ^wait(animations/Stand/Gestures/Hey_1) ",
 			"Norwegian" : "  ",
@@ -282,7 +282,7 @@ class MyClass(GeneratedClass):
                                                         <![CDATA[^start(animations/Stand/Gestures/Hey_1) Ciao ^wait(animations/Stand/Gestures/Hey_1)]]>
 </italian>
                                                     <japanese>
-                                                        <![CDATA[^start(animations/Stand/Gestures/Hey_1) コーヒートンヤの紹介をします根ぇ、コーヒートンヤは、 ^wait(animations/Stand/Gestures/Hey_1)]]>
+                                                        <![CDATA[^start(animations/Stand/Gestures/Explain_1) コーヒートンヤの紹介をします根ぇ、コーヒートンヤは、 ^wait(animations/Stand/Gestures/Hey_1)]]>
 </japanese>
                                                     <korean>
                                                         <![CDATA[^start(animations/Stand/Gestures/Hey_1) 안녕하세요 ^wait(animations/Stand/Gestures/Hey_1)]]>
@@ -490,7 +490,7 @@ class MyClass(GeneratedClass):
 			"Finnish" : " ^start(animations/Stand/Gestures/Hey_1) Hei ^wait(animations/Stand/Gestures/Hey_1) ",
 			"French" : " ^start(animations/Stand/Gestures/Hey_1) Bonjour ^wait(animations/Stand/Gestures/Hey_1) ",
 			"Italian" : " ^start(animations/Stand/Gestures/Hey_1) Ciao ^wait(animations/Stand/Gestures/Hey_1) ",
-			"Japanese" : " ^start(animations/Stand/Gestures/Hey_1) 実店舗13店舗を可魔エるコーヒー専門店です、珈琲問屋のモットーは ^wait(animations/Stand/Gestures/Hey_1) ",
+			"Japanese" : " ^start(animations/Stand/Gestures/Explain_11) 実店舗13店舗を可魔エるコーヒー専門店です、珈琲問屋のモットーは ^wait(animations/Stand/Gestures/Hey_1) ",
 			"Korean" : " ^start(animations/Stand/Gestures/Hey_1) 안녕하세요 ^wait(animations/Stand/Gestures/Hey_1) ",
 			"Dutch" : " ^start(animations/Stand/Gestures/Hey_1) Hallo ^wait(animations/Stand/Gestures/Hey_1) ",
 			"Norwegian" : "  ",
@@ -540,7 +540,7 @@ class MyClass(GeneratedClass):
                                                         <![CDATA[^start(animations/Stand/Gestures/Hey_1) Ciao ^wait(animations/Stand/Gestures/Hey_1)]]>
 </italian>
                                                     <japanese>
-                                                        <![CDATA[^start(animations/Stand/Gestures/Hey_1) 実店舗13店舗を可魔エるコーヒー専門店です、珈琲問屋のモットーは ^wait(animations/Stand/Gestures/Hey_1)]]>
+                                                        <![CDATA[^start(animations/Stand/Gestures/Explain_11) 実店舗13店舗を可魔エるコーヒー専門店です、珈琲問屋のモットーは ^wait(animations/Stand/Gestures/Hey_1)]]>
 </japanese>
                                                     <korean>
                                                         <![CDATA[^start(animations/Stand/Gestures/Hey_1) 안녕하세요 ^wait(animations/Stand/Gestures/Hey_1)]]>
@@ -1254,7 +1254,7 @@ class MyClass(GeneratedClass):
 			"Finnish" : " ^start(animations/Stand/Gestures/Hey_1) Hei ^wait(animations/Stand/Gestures/Hey_1) ",
 			"French" : " ^start(animations/Stand/Gestures/Hey_1) Bonjour ^wait(animations/Stand/Gestures/Hey_1) ",
 			"Italian" : " ^start(animations/Stand/Gestures/Hey_1) Ciao ^wait(animations/Stand/Gestures/Hey_1) ",
-			"Japanese" : " ^start(animations/Stand/Gestures/Give_4) どこよりも新鮮なコーヒーを、早く安くご帝京いたします。^wait(animations/Stand/Gestures/Hey_1) ",
+			"Japanese" : " ^start(animations/Stand/Gestures/Great_1) どこよりも新鮮なコーヒーを、早く安くご帝京いたします。^wait(animations/Stand/Gestures/Hey_1) ",
 			"Korean" : " ^start(animations/Stand/Gestures/Hey_1) 안녕하세요 ^wait(animations/Stand/Gestures/Hey_1) ",
 			"Dutch" : " ^start(animations/Stand/Gestures/Hey_1) Hallo ^wait(animations/Stand/Gestures/Hey_1) ",
 			"Norwegian" : "  ",
@@ -1304,7 +1304,7 @@ class MyClass(GeneratedClass):
                                                         <![CDATA[^start(animations/Stand/Gestures/Hey_1) Ciao ^wait(animations/Stand/Gestures/Hey_1)]]>
 </italian>
                                                     <japanese>
-                                                        <![CDATA[^start(animations/Stand/Gestures/Give_4) どこよりも新鮮なコーヒーを、早く安くご帝京いたします。^wait(animations/Stand/Gestures/Hey_1)]]>
+                                                        <![CDATA[^start(animations/Stand/Gestures/Great_1) どこよりも新鮮なコーヒーを、早く安くご帝京いたします。^wait(animations/Stand/Gestures/Hey_1)]]>
 </japanese>
                                                     <korean>
                                                         <![CDATA[^start(animations/Stand/Gestures/Hey_1) 안녕하세요 ^wait(animations/Stand/Gestures/Hey_1)]]>
@@ -1730,7 +1730,7 @@ class MyClass(GeneratedClass):
 			"Finnish" : " ^start(animations/Stand/Gestures/Hey_1) Hei ^wait(animations/Stand/Gestures/Hey_1) ",
 			"French" : " ^start(animations/Stand/Gestures/Hey_1) Bonjour ^wait(animations/Stand/Gestures/Hey_1) ",
 			"Italian" : " ^start(animations/Stand/Gestures/Hey_1) Ciao ^wait(animations/Stand/Gestures/Hey_1) ",
-			"Japanese" : " ^start(animations/Stand/Gestures/Explain_1) かしこまりました。 ^wait(animations/Stand/Gestures/Hey_1) ",
+			"Japanese" : " ^start(animations/Stand/Gestures/Me_1) かしこまりました。 ^wait(animations/Stand/Gestures/Hey_1) ",
 			"Korean" : " ^start(animations/Stand/Gestures/Hey_1) 안녕하세요 ^wait(animations/Stand/Gestures/Hey_1) ",
 			"Dutch" : " ^start(animations/Stand/Gestures/Hey_1) Hallo ^wait(animations/Stand/Gestures/Hey_1) ",
 			"Norwegian" : "  ",
@@ -1780,7 +1780,7 @@ class MyClass(GeneratedClass):
                                                         <![CDATA[^start(animations/Stand/Gestures/Hey_1) Ciao ^wait(animations/Stand/Gestures/Hey_1)]]>
 </italian>
                                                     <japanese>
-                                                        <![CDATA[^start(animations/Stand/Gestures/Explain_1) かしこまりました。 ^wait(animations/Stand/Gestures/Hey_1)]]>
+                                                        <![CDATA[^start(animations/Stand/Gestures/Me_1) かしこまりました。 ^wait(animations/Stand/Gestures/Hey_1)]]>
 </japanese>
                                                     <korean>
                                                         <![CDATA[^start(animations/Stand/Gestures/Hey_1) 안녕하세요 ^wait(animations/Stand/Gestures/Hey_1)]]>
@@ -1826,169 +1826,6 @@ class MyClass(GeneratedClass):
                                 </BehaviorLayer>
                             </Timeline>
                             <Resource name="Speech" type="Lock" timeout="0" />
-                        </Box>
-                        <Box name="Face Tracker" id="16" localization="-1" tooltip="This box makes the robot track a face with different modes." x="253" y="28">
-                            <bitmap>media/images/box/interaction/target_face.png</bitmap>
-                            <script language="4">
-                                <content>
-                                    <![CDATA[import time
-
-class MyClass(GeneratedClass):
-    def __init__(self):
-        GeneratedClass.__init__(self)
-        self.tracker = ALProxy( "ALTracker" )
-        self.memory = ALProxy("ALMemory")
-        self.targetName = "Face"
-        self.distanceX = 0.0
-        self.distanceY = 0.0
-        self.angleWz = 0.0
-        self.thresholdX = 0.0
-        self.thresholdY = 0.0
-        self.thresholdWz = 0.0
-        self.subscribeDone = False
-        self.effector = "None"
-        self.isRunning = False
-
-    def onLoad(self):
-        self.BIND_PYTHON(self.getName(), "setParameter")
-        self.BIND_PYTHON(self.getName(), "onTargetLost")
-        self.BIND_PYTHON(self.getName(), "onTargetReached")
-        self.BIND_PYTHON(self.getName(), "onTargetChanged")
-        self.memory.subscribeToEvent("ALTracker/ActiveTargetChanged", self.getName(), "onTargetChanged")
-
-    def onUnload(self):
-        if self.subscribeDone:
-            self.memory.unsubscribeToEvent("ALTracker/TargetLost", self.getName())
-            self.memory.unsubscribeToEvent("ALTracker/TargetReached", self.getName())
-            self.subscribeDone = False
-
-        if self.isRunning:
-            self.tracker.setEffector("None")
-            self.tracker.stopTracker()
-            self.tracker.unregisterTarget(self.targetName)
-            self.isRunning = False
-
-    def onInput_onStart(self):
-        self.memory.subscribeToEvent("ALTracker/TargetLost", self.getName(), "onTargetLost")
-        self.memory.subscribeToEvent("ALTracker/TargetReached", self.getName(), "onTargetReached")
-        self.subscribeDone = True
-
-        mode = self.getParameter("Mode")
-        width = self.getParameter("Width (m)")
-        self.distanceX = self.getParameter("Distance X (m)")
-        self.thresholdX = self.getParameter("Threshold X (m)")
-        self.distanceY = self.getParameter("Distance Y (m)")
-        self.thresholdY = self.getParameter("Threshold Y (m)")
-        self.angleWz = self.getParameter("Theta (rad)")
-        self.thresholdWz = self.getParameter("Threshold Theta (rad)")
-        self.effector = self.getParameter("Effector")
-
-        self.tracker.setEffector(self.effector)
-
-        self.tracker.registerTarget(self.targetName, width)
-        self.tracker.setRelativePosition([-self.distanceX, self.distanceY, self.angleWz,
-                                           self.thresholdX, self.thresholdY, self.thresholdWz])
-        self.tracker.setMode(mode)
-
-        self.tracker.track(self.targetName) #Start tracker
-        self.isRunning = True
-
-    def onInput_onStop(self):
-        self.onStopped()
-        self.onUnload()
-
-    def setParameter(self, parameterName, newValue):
-        GeneratedClass.setParameter(self, parameterName, newValue)
-        if (parameterName == "Mode"):
-            self.tracker.setMode(newValue)
-            return
-
-        if (parameterName == "Width (m)"):
-            self.tracker.registerTarget(self.targetName, newValue)
-            return
-
-        if (parameterName == "Distance X (m)"):
-            self.distanceX = newValue
-            self.tracker.setRelativePosition([-self.distanceX, self.distanceY, self.angleWz,
-                                               self.thresholdX, self.thresholdY, self.thresholdWz])
-            return
-
-        if (parameterName == "Distance Y (m)"):
-            self.distanceY = newValue
-            self.tracker.setRelativePosition([-self.distanceX, self.distanceY, self.angleWz,
-                                               self.thresholdX, self.thresholdY, self.thresholdWz])
-            return
-
-        if (parameterName == "Theta (rad)"):
-            self.angleWz = newValue
-            self.tracker.setRelativePosition([-self.distanceX, self.distanceY, self.angleWz,
-                                               self.thresholdX, self.thresholdY, self.thresholdWz])
-            return
-
-        if (parameterName == "Threshold X (m)"):
-            self.thresholdX = newValue
-            self.tracker.setRelativePosition([-self.distanceX, self.distanceY, self.angleWz,
-                                               self.thresholdX, self.thresholdY, self.thresholdWz])
-            return
-
-        if (parameterName == "Threshold Y (m)"):
-            self.thresholdY = newValue
-            self.tracker.setRelativePosition([-self.distanceX, self.distanceY, self.angleWz,
-                                               self.thresholdX, self.thresholdY, self.thresholdWz])
-            return
-
-        if (parameterName == "Threshold Theta (rad)"):
-            self.thresholdWz = newValue
-            self.tracker.setRelativePosition([-self.distanceX, self.distanceY, self.angleWz,
-                                               self.thresholdX, self.thresholdY, self.thresholdWz])
-            return
-
-        if(parameterName == "Effector"):
-            self.tracker.setEffector(newValue)
-            self.effector = newValue
-            return
-
-    def onTargetLost(self, key, value, message):
-        self.targetLost()
-
-    def onTargetReached(self, key, value, message):
-        self.targetReached()
-
-    def onTargetChanged(self, key, value, message):
-        if value == self.targetName and not self.subscribeDone:
-            self.memory.subscribeToEvent("ALTracker/TargetLost", self.getName(), "onTargetLost")
-            self.memory.subscribeToEvent("ALTracker/TargetReached", self.getName(), "onTargetReached")
-            self.subscribeDone = True
-        elif value != self.targetName and self.subscribeDone:
-            self.memory.unsubscribeToEvent("ALTracker/TargetLost", self.getName())
-            self.memory.unsubscribeToEvent("ALTracker/TargetReached", self.getName())
-            self.subscribeDone = False]]>
-</content>
-                            </script>
-                            <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" />
-                            <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" />
-                            <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
-                            <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" />
-                            <Output name="targetLost" type="1" type_size="1" nature="2" inner="0" tooltip="Signal sent when the target is lost." id="5" />
-                            <Output name="targetReached" type="1" type_size="1" nature="2" inner="0" tooltip="Signal sent when the target is reached." id="6" />
-                            <Parameter name="Mode" inherits_from_parent="0" content_type="3" value="Head" default_value="Head" custom_choice="0" tooltip="Set tracker mode" id="7">
-                                <Choice value="Head" />
-                                <Choice value="WholeBody" />
-                                <Choice value="Move" />
-                            </Parameter>
-                            <Parameter name="Effector" inherits_from_parent="0" content_type="3" value="None" default_value="None" custom_choice="0" tooltip="Set effector to use for tracking. Head is always used." id="8">
-                                <Choice value="None" />
-                                <Choice value="Arms" />
-                                <Choice value="LArm" />
-                                <Choice value="RArm" />
-                            </Parameter>
-                            <Parameter name="Width (m)" inherits_from_parent="0" content_type="2" value="0.6" default_value="0.1" min="0.01" max="0.6" tooltip="Width of the face in meters" id="9" />
-                            <Parameter name="Distance X (m)" inherits_from_parent="0" content_type="2" value="0.3" default_value="0.3" min="0.01" max="5" tooltip="Distance on X axis the robot will try to maintain from its target in move modes." id="10" />
-                            <Parameter name="Threshold X (m)" inherits_from_parent="0" content_type="2" value="0.1" default_value="0.1" min="0.01" max="1" tooltip="Threshold above which the robot will move to track its target in move modes." id="11" />
-                            <Parameter name="Distance Y (m)" inherits_from_parent="0" content_type="2" value="0" default_value="0" min="-5" max="5" tooltip="Distance on Y axis the robot will try to maintain from its target in move modes." id="12" />
-                            <Parameter name="Threshold Y (m)" inherits_from_parent="0" content_type="2" value="0.1" default_value="0.1" min="0.01" max="1" tooltip="Threshold above which the robot will move to track its target in move modes." id="13" />
-                            <Parameter name="Theta (rad)" inherits_from_parent="0" content_type="2" value="0" default_value="0" min="-3.14" max="3.14" tooltip="Wz angle of the vector robot-target the robot will try to maintain in move modes." id="14" />
-                            <Parameter name="Threshold Theta (rad)" inherits_from_parent="0" content_type="2" value="0.3" default_value="0.3" min="0" max="3.14" tooltip="Threshold of the angle of the vector robot-target above which the robot will move to track its target in move modes." id="15" />
                         </Box>
                         <Box name="Wait (3)" id="15" localization="8" tooltip="Wait a moment before sending a signal on the output. &#x0A;Can be stopped anytime. &#x0A;Stimulating the input again before output is activated restarts the waiting period.&#x0A;" x="187" y="451">
                             <bitmap>media/images/box/wait.png</bitmap>
@@ -2393,27 +2230,7 @@ class MyClass(GeneratedClass):
                             </Timeline>
                             <Resource name="Audio player" type="Lock" timeout="0" />
                         </Box>
-                        <Box name="Comment" id="20" localization="8" tooltip="To comment your behavior. Enter the text here and move the box where you like&#x0A;to add the comment.&#x0A;&#x0A;Note: This box is not functional and has no effect on the behavior." plugin="textedit_plugin" x="357" y="31">
-                            <bitmap>media/images/box/box-script.png</bitmap>
-                            <script language="4">
-                                <content>
-                                    <![CDATA[# /!\ Generated content. Do not edit!
-class MyClass(GeneratedClass):
-	def __init__(self):
-		GeneratedClass.__init__(self)
-
-	def onInput_onStart(self):
-		self.onStopped("Face Trackerがうまくいかない")]]>
-</content>
-                            </script>
-                            <pluginContent>
-                                <text>
-                                    <![CDATA[Face Trackerがうまくいかない]]>
-</text>
-                            </pluginContent>
-                            <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" />
-                        </Box>
-                        <Box name="Show Image (4)" id="4" localization="8" tooltip="display an image on the screen&#x0A;&#x0A;V1.0.0&#x0A;" x="83" y="73">
+                        <Box name="Show Image (4)" id="4" localization="8" tooltip="display an image on the screen&#x0A;&#x0A;V1.0.0&#x0A;" x="121" y="99">
                             <bitmap>media/images/box/interaction/rec_movie.png</bitmap>
                             <script language="4">
                                 <content>
@@ -2509,7 +2326,7 @@ class MyClass(GeneratedClass):
                             <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="6" />
                             <Parameter name="ImageUrl" inherits_from_parent="0" content_type="3" value="presentation00.html" default_value="" custom_choice="0" tooltip='path of the image inside the &quot;html&quot; folder (e.g. &quot;/images/myimage.png&quot;' id="7" />
                         </Box>
-                        <Box name="Basic Awareness" id="21" localization="8" tooltip="This box is an interface to the module ALBasicAwareness.&#x0A;&#x0A;It is a simple way to make the robot establish and keep eye contact with people.&#x0A;&#x0A;V1.1.0" x="100" y="184">
+                        <Box name="Basic Awareness" id="21" localization="8" tooltip="This box is an interface to the module ALBasicAwareness.&#x0A;&#x0A;It is a simple way to make the robot establish and keep eye contact with people.&#x0A;&#x0A;V1.1.0" x="88" y="597">
                             <bitmap>media/images/box/tracker/basicawareness.png</bitmap>
                             <script language="4">
                                 <content>
@@ -2655,9 +2472,9 @@ class MyClass(GeneratedClass):
                         <Link inputowner="15" indexofinput="2" outputowner="14" indexofoutput="4" />
                         <Link inputowner="1" indexofinput="2" outputowner="15" indexofoutput="4" />
                         <Link inputowner="21" indexofinput="2" outputowner="0" indexofoutput="2" />
-                        <Link inputowner="21" indexofinput="3" outputowner="21" indexofoutput="6" />
-                        <Link inputowner="14" indexofinput="2" outputowner="21" indexofoutput="4" />
-                        <Link inputowner="16" indexofinput="2" outputowner="21" indexofoutput="6" />
+                        <Link inputowner="14" indexofinput="2" outputowner="0" indexofoutput="2" />
+                        <Link inputowner="21" indexofinput="2" outputowner="21" indexofoutput="6" />
+                        <Link inputowner="21" indexofinput="2" outputowner="21" indexofoutput="7" />
                     </Diagram>
                 </BehaviorKeyframe>
             </BehaviorLayer>
