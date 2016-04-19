@@ -29,6 +29,8 @@
         <File name="presentation03" src="html/presentation03.html" />
         <File name="presentation04" src="html/presentation04.html" />
         <File name="b_114" src="presentation/b_114.mp3" />
+        <File name="logo" src="html/images/logo.jpg" />
+        <File name="presentation00" src="html/presentation00.html" />
     </Resources>
     <Topics />
     <IgnoredPaths>

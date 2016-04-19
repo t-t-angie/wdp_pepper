@@ -29,10 +29,6 @@
     <name lang="ja_JP">アンケート機能</name>
     <name lang="ja_JP-x-scrald">アンケート機能</name>
    </names>
-   <descriptions/>
-   <triggerSentences/>
-   <loadingResponses/>
-   <autonomous/>
    <permissions/>
   </behaviorContent>
   <behaviorContent path="presentation">
