@@ -1,18 +1,38 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package version="0.0.0" uuid="tonya-579850">
+<package uuid="biz_woodpecker_tonya-pepper" version="0.1.1">
  <names>
   <name lang="en_US">tonya-pepper</name>
+  <name lang="en_US-x-scrald">tonya-pepper</name>
+  <name lang="ja_JP">トンヤのロボアプリ</name>
+  <name lang="ja_JP-x-scrald">トンヤのロボアプリ</name>
  </names>
+ <descriptions>
+  <description lang="en_US">For Tonya</description>
+  <description lang="en_US-x-scrald">For Tonya</description>
+  <description lang="ja_JP">トンヤに向けて</description>
+  <description lang="ja_JP-x-scrald">トンヤに向けて</description>
+ </descriptions>
  <supportedLanguages>
   <language>en_US</language>
+  <language>ja_JP</language>
  </supportedLanguages>
  <descriptionLanguages>
   <language>en_US</language>
+  <language>ja_JP</language>
  </descriptionLanguages>
  <contents>
   <behaviorContent path="questionnaire">
-   <userRequestable/>
    <nature>interactive</nature>
+   <names>
+    <name lang="en_US">Questionnaire</name>
+    <name lang="en_US-x-scrald">Questionnaire</name>
+    <name lang="ja_JP">アンケート機能</name>
+    <name lang="ja_JP-x-scrald">アンケート機能</name>
+   </names>
+   <descriptions/>
+   <triggerSentences/>
+   <loadingResponses/>
+   <autonomous/>
    <permissions/>
   </behaviorContent>
   <behaviorContent path="presentation">
@@ -20,4 +40,8 @@
    <permissions/>
   </behaviorContent>
  </contents>
+ <requirements>
+  <naoqiRequirement minVersion="2.4" maxVersion="2.4"/>
+  <robotRequirement model="JULIETTE"/>
+ </requirements>
 </package>

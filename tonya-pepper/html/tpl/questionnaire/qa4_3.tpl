@@ -1,12 +1,14 @@
 <script>
 Qitalk.proxy.ALTextToSpeech.say('いよいよ、最後の質問です。');
 Qitalk.proxy.ALTextToSpeech.say('好きなエスプレッソの種類を教えてください。');
+
+Qitalk.send("/tonya/Signal/questionnaire/next_tpl", "");
 </script>
 
 <script>
 function choise(selectedNo){
-    Qitalk.send("/tonya/Signal/questionnaire/question", 3);
     Qitalk.send("/tonya/Signal/questionnaire/answer", selectedNo);
+    Qitalk.send("/tonya/Signal/questionnaire/exit", "true");
 };
 </script>
 

@@ -1,11 +1,13 @@
 <script>
 Qitalk.proxy.ALTextToSpeech.say('次の質問です。 好きなローストはありますか？');
+
+Qitalk.send("/tonya/Signal/questionnaire/next_tpl", "qa4_3");
 </script>
 
 <script>
 function choise(selectedNo){
-    Qitalk.send("/tonya/Signal/questionnaire/question", 2);
     Qitalk.send("/tonya/Signal/questionnaire/answer", selectedNo);
+    Qitalk.send("/tonya/Signal/questionnaire/exit", "false");
 };
 </script>
 
