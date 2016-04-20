@@ -25,6 +25,12 @@
         <File name="shop2" src="html/images/shop2.jpg" />
         <File name="shop3" src="html/images/shop3.jpg" />
         <File name="presentation01" src="html/presentation01.html" />
+        <File name="presentation02" src="html/presentation02.html" />
+        <File name="presentation03" src="html/presentation03.html" />
+        <File name="presentation04" src="html/presentation04.html" />
+        <File name="b_114" src="presentation/b_114.mp3" />
+        <File name="logo" src="html/images/logo.jpg" />
+        <File name="presentation00" src="html/presentation00.html" />
     </Resources>
     <Topics />
     <IgnoredPaths>

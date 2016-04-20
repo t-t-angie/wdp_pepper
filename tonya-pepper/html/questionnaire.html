@@ -28,11 +28,16 @@ $(function() {
        service : ['ALMemory', 'ALTextToSpeech']
      },
      handle : {
-       start : function() {
-           Qitalk.proxy.ALMemory.getData('/tonya/Signal/questionnaire/PresentView').then(function(str){
-             Qitalk.presentView(str);
-           });
-       }
+        start : function() {
+            // preload処理終了後に通知
+            Qitalk.presentView('qa4_1');
+        },
+        presented: function() {
+            // 画面遷移後に通知
+            Qitalk.on('/tonya/Signal/questionnaire/PresentView', function(tpl) {
+                Qitalk.presentView(tpl);
+            }, 'PresentView');
+        }
      }
    });
 });
@@ -41,7 +46,9 @@ $(function() {
 </script>
 <head>
 <body>
-   <div id="qitalk" class="wrapper">
+   <div class="wrapper">
+      <div id="qitalk">
+      </div>
    </div>
 
 </body>
