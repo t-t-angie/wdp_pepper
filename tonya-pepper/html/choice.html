@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale = 1.335, minimum-scale = 1.335, maximum-scale = 1.335"/>
+    <link rel="stylesheet" href="css/choice.css" />
+    <script src="/lib/jquery/jquery.min.js"></script>
+    <script src="/libs/qimessaging/2/qimessaging.js"></script>
+</head>
+<body>
+    <script>
+    var session;
+    QiSession(function(s) {
+        session = s;
+    });
+    $(function() {
+        $('.select1 img').click(function() {
+            $(this).attr('src', 'images/question_2_1_on.png');
+            session.service("ALMemory").then(function(ALMemory) {
+                console.log("got ALMemory object");
+                ALMemory.raiseEvent("/tonya/Signal/choice/answer", "1");
+            });
+        });
+        $('.select2 img').click(function() {
+            $(this).attr('src', 'images/question_2_2_on.png');
+            session.service("ALMemory").then(function(ALMemory) {
+                console.log("got ALMemory object");
+                ALMemory.raiseEvent("/tonya/Signal/choice/answer", "2");
+            });
+        });
+    });
+    </script>
+    <header id="common-header">
+        <div id="logo"><img src="images/logo.jpg"/></div>
+    </header>
+    <section id="scene1" class="page tablescene">
+        <div>
+            <p class="ques">好きな色は？</p>
+        </div>
+        <div class="button select1">
+            <img src="images/question_2_1_off.png"/>
+            <div class="table"><p class="text">暖色系</p></div>
+        </div>
+        <div class="button select2">
+            <img src="images/question_2_2_off.png"/>
+            <div class="table"><p class="text">寒色系</p></div>
+        </div>
+        <div class="quesQ"></div>
+    </section>
+</body>
+</html>

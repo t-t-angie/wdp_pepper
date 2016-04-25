@@ -5,6 +5,7 @@
         <BehaviorDescription name="behavior" src="questionnaire" xar="behavior.xar" />
         <BehaviorDescription name="behavior" src="presentation" xar="behavior.xar" />
         <BehaviorDescription name="behavior" src="greeting" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="choice" xar="behavior.xar" />
     </BehaviorDescriptions>
     <Dialogs />
     <Resources>
@@ -113,6 +114,45 @@
         <File name="ssl_" src="Lib/requests/packages/urllib3/util/ssl_.py" />
         <File name="timeout" src="Lib/requests/packages/urllib3/util/timeout.py" />
         <File name="url" src="Lib/requests/packages/urllib3/util/url.py" />
+        <File name="background" src="html/images/background.png" />
+        <File name="cold" src="html/images/cold.jpg" />
+        <File name="home_off" src="html/images/home_off.png" />
+        <File name="home_on" src="html/images/home_on.png" />
+        <File name="hot" src="html/images/hot.jpg" />
+        <File name="question" src="html/images/question.png" />
+        <File name="question_2_1_off" src="html/images/question_2_1_off.png" />
+        <File name="question_2_1_on" src="html/images/question_2_1_on.png" />
+        <File name="question_2_2_off" src="html/images/question_2_2_off.png" />
+        <File name="question_2_2_on" src="html/images/question_2_2_on.png" />
+        <File name="question_4_1_off" src="html/images/question_4_1_off.png" />
+        <File name="question_4_1_on" src="html/images/question_4_1_on.png" />
+        <File name="question_4_2_off" src="html/images/question_4_2_off.png" />
+        <File name="question_4_2_on" src="html/images/question_4_2_on.png" />
+        <File name="question_4_3_off" src="html/images/question_4_3_off.png" />
+        <File name="question_4_3_on" src="html/images/question_4_3_on.png" />
+        <File name="question_4_4_off" src="html/images/question_4_4_off.png" />
+        <File name="question_4_4_on" src="html/images/question_4_4_on.png" />
+        <File name="choice" src="html/tpl/choice/choice.tpl" />
+        <File name="choice" src="html/choice.html" />
+        <File name="choice" src="html/css/choice.css" />
+        <File name="choice" src="html/choice.BAK" />
+        <File name="choice_answer1" src="html/choice_answer1.BAK" />
+        <File name="choice_answer1" src="html/choice_answer1.html" />
+        <File name="choice_answer2" src="html/choice_answer2.BAK" />
+        <File name="choice_answer2" src="html/choice_answer2.html" />
+        <File name="mplus-1p-medium" src="html/font/mplus-1p-medium.ttf" />
+        <File name="mplus-2p-bold" src="html/font/mplus-2p-bold.ttf" />
+        <File name="drumroll" src="html/sounds/drumroll.ogg" />
+        <File name="question" src="html/sounds/question.ogg" />
+        <File name="result" src="html/sounds/result.ogg" />
+        <File name="salesman_bgm" src="html/sounds/salesman_bgm.ogg" />
+        <File name="touch" src="html/sounds/touch.ogg" />
+        <File name="drumroll" src="sounds/drumroll.ogg" />
+        <File name="question" src="sounds/question.ogg" />
+        <File name="result" src="sounds/result.ogg" />
+        <File name="salesman_bgm" src="sounds/salesman_bgm.ogg" />
+        <File name="touch" src="sounds/touch.ogg" />
+        <File name="logo" src="html/images/logo.jpg" />
     </Resources>
     <Topics />
     <IgnoredPaths>
