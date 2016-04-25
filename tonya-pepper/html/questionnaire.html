@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <!--選択肢template（問題文有り:4択[2]）-->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale = 1.335, minimum-scale = 1.335, maximum-scale = 1.335"/>
+    <!-- Bootstrap core CSS -->
+    <link media="all" type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+<script src="/lib/jquery/jquery.min.js"></script>
+<script src="/libs/qimessaging/2/qimessaging.js"></script>
+<script src="js/qitalk.js"></script>
+<script>
+$(function() {
+   Qitalk.init({
+     host    : '', // pepper host. default => localhost
+     root    : '#qitalk',
+     tplDir  : './tpl/questionnaire',
+     preload : {
+       tpl     : ['qa4_1','qa4_2','qa4_3'],
+       service : ['ALMemory', 'ALTextToSpeech']
+     },
+     handle : {
+        start : function() {
+            // preload処理終了後に通知
+            Qitalk.presentView('qa4_1');
+        },
+        presented: function() {
+            // 画面遷移後に通知
+            Qitalk.on('/tonya/Signal/questionnaire/PresentView', function(tpl) {
+                Qitalk.presentView(tpl);
+            }, 'PresentView');
+        }
+     }
+   });
+});
+
+
+</script>
+<head>
+<body>
+   <div class="wrapper">
+      <div id="qitalk">
+      </div>
+   </div>
+
+</body>

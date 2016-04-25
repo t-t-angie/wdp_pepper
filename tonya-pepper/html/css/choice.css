@@ -1,0 +1,191 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    /* margin: 0;*/
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+@font-face {
+    font-family: mplus;
+    src: url(../font/mplus-2p-bold.ttf) format('truetype');
+}
+
+.clearfix {
+    width: 100%;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -webkit-userselect: none;
+}
+
+body {
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    font-family: mplus;
+}
+
+#common-header #logo {
+    position: absolute;
+    top: 24px;
+    left: 40px;
+    height: 80px;
+    width: 320px;
+    display: block;
+    background-position: left center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+html, body, section {
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    position: absolute;
+}
+
+section {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../images/background.png');
+    position: absolute;
+}
+
+#scene2 .product_img,
+#scene3 .product_img {
+    position: absolute;
+    width: 1200px;
+    height: 632px;
+    top: 128px;
+    left: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#scene2 .product_img {
+    background-image: url('../images/hot.jpg');
+}
+
+#scene3 .product_img {
+    background-image: url('../images/cold.jpg');
+}
+
+.ques {
+    font-size: 54px;
+    font-weight: bolder;
+    color: #7b5544;
+    margin: 0;
+    display: table-cell;
+    word-wrap: break-word;
+    vertical-align: middle;
+    line-height: 1.2em;
+}
+
+.table {
+    display: table;
+    table-layout: fixed;
+    width: 93%;
+    height: 60%;
+    top: 180px;
+    left: 18px;
+    position: absolute;
+}
+
+.quesQ {
+    background-image: url(../images/question.png);
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    left: 110px;
+    top: 130px;
+}
+
+.select1 {
+    position: absolute;
+    top: 275px;
+    left: 105px;
+    width: 528px;
+    height: 472px;
+}
+
+.select2 {
+    position: absolute;
+    top: 275px;
+    left: 650px;   
+    width: 528px;
+    height: 472px;
+}
+
+.text {
+    font-size: 64px;
+    font-weight: bolder;
+    color: white;
+    display: table-cell;
+    word-wrap: break-word;
+    vertical-align: middle;
+    line-height: 72px;
+    text-shadow: 1px 1.732px 8px rgb( 123, 85, 68 );
+    text-align: center;
+}
+
+.tablescene > div:first-child {
+    width: 73%;
+    height: 130px;
+    display: table;
+    table-layout: fixed;
+    position: absolute;
+    left: 250px;
+    top: 130px;
+}
